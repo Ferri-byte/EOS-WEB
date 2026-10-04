@@ -1,0 +1,44 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4f46e5;
+    color: white;
+    padding: 2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+button {
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #3730a3;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
